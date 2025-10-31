@@ -1,4 +1,4 @@
-# 🌫️ Object Detection in Hazy and Foggy Conditions on NVIDIA Jetson Nano
+# 🌫️ “Fog-Robust Object Detection on Embedded GPUs Using Hybrid Attention Networks”
 
 ## 📘 Project Overview
 This repository contains the **Phase 1: Literature Review & Feasibility** work for the research project conducted at the  
