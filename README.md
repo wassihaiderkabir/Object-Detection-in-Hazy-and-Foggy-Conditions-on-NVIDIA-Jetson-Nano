@@ -1,4 +1,4 @@
-# 🌫️ “Fog-Robust Object Detection on Embedded GPUs Using Hybrid Attention Networks”
+# 🌫️ “A Lightweight Dehazing-Aware Object Detection Framework for Embedded Vision Systems”
 
 ## 📘 Project Overview
 This repository contains the **Phase 1: Literature Review & Feasibility** work for the research project conducted at the  
