@@ -1,0 +1,104 @@
+name: 📄 Documentation Task
+description: Create a task for documentation, reports, or literature review
+title: "[Documentation] "
+labels: ["documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📄 Documentation Task
+        Use this template for tasks related to documentation, literature review, reports, or README updates.
+  
+  - type: input
+    id: task-title
+    attributes:
+      label: Task Summary
+      description: Brief description of the documentation task
+      placeholder: e.g., Update literature review with 2025 papers
+    validations:
+      required: true
+
+  - type: dropdown
+    id: task-type
+    attributes:
+      label: Task Type
+      description: What type of documentation task is this?
+      options:
+        - Literature Review
+        - IEEE Report
+        - README Update
+        - Technical Guide
+        - Reference Management
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      description: Provide a detailed description of the task
+      placeholder: |
+        What needs to be documented?
+        What sections need to be added/updated?
+        What format is required?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What defines this task as complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Criterion 3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Task priority level
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Project Phase
+      description: Which phase does this task belong to?
+      options:
+        - Phase 1 - Literature Review
+        - Phase 2 - Implementation
+        - Phase 3 - Deployment
+        - Phase 4 - Documentation
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References/Sources
+      description: Any papers or sources to include
+      placeholder: |
+        - Paper: [title and link]
+        - Source: [description]
+    validations:
+      required: false
+
+  - type: input
+    id: estimated-time
+    attributes:
+      label: Estimated Time
+      description: How long do you estimate this task will take?
+      placeholder: e.g., 2 days, 1 week
+    validations:
+      required: false

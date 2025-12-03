@@ -1,0 +1,128 @@
+name: 💻 Embedded Task
+description: Create a task for Jetson Nano deployment and optimization
+title: "[Embedded] "
+labels: ["embedded"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💻 Embedded Task
+        Use this template for tasks related to Jetson Nano deployment, TensorRT optimization, or hardware testing.
+  
+  - type: input
+    id: task-title
+    attributes:
+      label: Task Summary
+      description: Brief description of the embedded task
+      placeholder: e.g., Convert YOLOv5 to TensorRT FP16
+    validations:
+      required: true
+
+  - type: dropdown
+    id: task-type
+    attributes:
+      label: Task Type
+      description: What type of embedded task is this?
+      options:
+        - TensorRT Conversion
+        - Model Quantization (FP16/INT8)
+        - Jetson Nano Deployment
+        - Performance Benchmarking
+        - Power Optimization
+        - Hardware Setup
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      description: Provide a detailed description of the task
+      placeholder: |
+        What needs to be deployed/optimized?
+        What hardware is being used?
+        What are the performance targets?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What defines this task as complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Criterion 3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Task priority level
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Project Phase
+      description: Which phase does this task belong to?
+      options:
+        - Phase 1 - Literature Review
+        - Phase 2 - Implementation
+        - Phase 3 - Deployment
+        - Phase 4 - Documentation
+    validations:
+      required: true
+
+  - type: input
+    id: target-fps
+    attributes:
+      label: Target FPS
+      description: Expected frames per second
+      placeholder: e.g., 10-15 FPS
+    validations:
+      required: false
+
+  - type: dropdown
+    id: precision
+    attributes:
+      label: Precision Mode
+      description: Target precision for optimization
+      options:
+        - FP32 (Full Precision)
+        - FP16 (Half Precision)
+        - INT8 (Quantized)
+        - Not Applicable
+    validations:
+      required: false
+
+  - type: textarea
+    id: hardware-specs
+    attributes:
+      label: Hardware Specifications
+      description: Target hardware details
+      placeholder: |
+        - Device: Jetson Nano 4GB
+        - Power: 5V 4A
+        - Memory: 4GB LPDDR4
+    validations:
+      required: false
+
+  - type: input
+    id: estimated-time
+    attributes:
+      label: Estimated Time
+      description: How long do you estimate this task will take?
+      placeholder: e.g., 2 days, 1 week
+    validations:
+      required: false

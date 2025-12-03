@@ -10,13 +10,39 @@ The project investigates how modern **dehazing-aware object-detection networks**
 
 ---
 
-## 👥 Authors
-- **Wassi Haider Kabir**  
-- **Muhammad Ashar Javid**  
-- **Hamza Irshad Bhatti**  
-- **Ammar**  
-School of Electrical Engineering and Computer Science (SEECS),  
-National University of Sciences and Technology (NUST), Islamabad, Pakistan  
+## 📋 Project Board
+
+This project uses a **Kanban-style GitHub Project Board** for task management and progress tracking.
+
+| Column | Purpose |
+|--------|---------|
+| **Backlog** | Ideas and potential tasks |
+| **To Do** | Tasks committed for next sprint/week |
+| **In Progress** | Currently active tasks |
+| **Review/Testing** | Tasks pending verification |
+| **Done** | Completed tasks |
+
+📌 **[View Project Board](../../projects)** | 📖 **[Board Setup Guide](KANBAN_SETUP.md)**
+
+---
+
+## 👥 Team Members
+
+### Project Team
+| Name | Role | Responsibilities |
+|------|------|------------------|
+| **Wassi Haider Kabir** | Team Lead / Embedded | Project management, Jetson Nano deployment |
+| **Muhammad Ashar Javid** | Simulation | Model training, benchmarking |
+| **Hamza Irshad Bhatti** | Simulation | Dataset preparation, model evaluation |
+| **Ammar** | Documentation | Literature review, reports |
+
+### Oversight Members
+| Name | Role | Access |
+|------|------|--------|
+| **Ms. Tehniyat Siddiqui** | Lab Engineer | Read & Comment |
+| **Dr. Tauseef ur Rehman** | Instructor | Read & Comment |
+
+📖 **[View Full Team Details](TEAM.md)** | 🤝 **[Contributing Guide](CONTRIBUTING.md)**
 
 ---
 

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📋 Project Board
+    url: https://github.com/wassihaiderkabir/Object-Detection-in-Hazy-and-Foggy-Conditions-on-NVIDIA-Jetson-Nano/projects
+    about: View and manage tasks on the project Kanban board
+  - name: 📖 Setup Guide
+    url: https://github.com/wassihaiderkabir/Object-Detection-in-Hazy-and-Foggy-Conditions-on-NVIDIA-Jetson-Nano/blob/main/KANBAN_SETUP.md
+    about: Instructions for setting up the project board
