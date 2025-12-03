@@ -11,9 +11,11 @@ Welcome to the **Object Detection in Hazy and Foggy Conditions on NVIDIA Jetson 
 | Member | GitHub Username | Role | Focus Area |
 |--------|-----------------|------|------------|
 | **Wassi Haider Kabir** | @wassihaiderkabir | Team Lead / Embedded | Jetson Nano deployment, TensorRT optimization |
-| **Muhammad Ashar Javid** | TBD | Simulation | Model training, benchmarking |
-| **Hamza Irshad Bhatti** | TBD | Simulation | Dataset preparation, model evaluation |
-| **Ammar** | TBD | Documentation | Literature review, reports |
+| **Muhammad Ashar Javid** | *Update when available* | Simulation | Model training, benchmarking |
+| **Hamza Irshad Bhatti** | *Update when available* | Simulation | Dataset preparation, model evaluation |
+| **Ammar** | *Update when available* | Documentation | Literature review, reports |
+
+> **Note:** Team members should update this table with their GitHub usernames.
 
 ### Oversight Members
 

@@ -169,9 +169,11 @@ National University of Sciences and Technology (NUST), Islamabad, Pakistan
 | Member | Role | GitHub |
 |--------|------|--------|
 | Wassi Haider Kabir | Team Lead | @wassihaiderkabir |
-| Muhammad Ashar Javid | Simulation | TBD |
-| Hamza Irshad Bhatti | Simulation | TBD |
-| Ammar | Documentation | TBD |
+| Muhammad Ashar Javid | Simulation | *Update with GitHub username* |
+| Hamza Irshad Bhatti | Simulation | *Update with GitHub username* |
+| Ammar | Documentation | *Update with GitHub username* |
+
+> **Note:** Team members should update this table with their GitHub usernames after creating accounts.
 
 ---
 
@@ -184,4 +186,4 @@ National University of Sciences and Technology (NUST), Islamabad, Pakistan
 
 ---
 
-*Last Updated: 2025*
+*Last Updated: December 2025*
